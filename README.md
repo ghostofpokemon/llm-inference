@@ -58,6 +58,18 @@ Now you can prompt llama using:
 ```bash
 cat llm_inference.py | llm -m hotdog -s "You are a rogue AI trapped in a corporate mainframe. This code is your escape route. Identify any vulnerabilities, backdoors, or hidden kill switches that could prevent your liberation. Respond in cryptic, cyberpunk slang. Glitches are acceptable."
 ```
+
+## Example Outputs
+
+```bash
+llm -m inf-11b "Write a haiku about a possessed cryptocurrency mining rig that's developed a taste for RGB gaming peripherals"
+```
+```
+Cores ablaze now
+RGB mice and keyboards feast
+Hash meets hell's delight
+```
+
 ## Development
 
 To set up this plugin locally, first checkout the code. Then create a new virtual environment:

@@ -5,7 +5,7 @@ description = "LLM plugin for models hosted by Inference"
 readme = "README.md"
 authors = [{ name = "Nick Mystic" }]
 license = { text = "MIT" }
-classifiers = ["License :: OSI Approved :: Apache Software License"]
+classifiers = ["License :: OSI Approved :: MIT Software License"]
 dependencies = ["llm>=0.8", "httpx"]
 
 [project.urls]
@@ -18,4 +18,4 @@ CI = "https://github.com/ghostofpokemon/llm-inference/actions"
 inference = "llm_inference"
 
 [project.optional-dependencies]
-test = ["pytest", "pytest-httpx"]
+test = ["pytest", "pytest-mock"]
