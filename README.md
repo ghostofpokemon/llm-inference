@@ -2,7 +2,6 @@
 
 [![PyPI](https://img.shields.io/pypi/v/llm-inference-cloud.svg)](https://pypi.org/project/llm-inference-cloud/)
 [![Changelog](https://img.shields.io/github/v/release/ghostofpokemon/llm-inference?include_prereleases&label=changelog)](https://github.com/ghostofpokemon/llm-inference/releases)
-[![Tests](https://github.com/ghostofpokemon/llm-inference/actions/workflows/test.yml/badge.svg)](https://github.com/ghostofpokemon/llm-inference/actions/workflows/test.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ghostofpokemon/llm-inference/blob/main/LICENSE)
 
 [LLM](https://llm.datasette.io/) plugin for models hosted by [Inference](https://inference.net/)
