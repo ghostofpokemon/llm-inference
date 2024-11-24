@@ -5,7 +5,7 @@ description = "LLM plugin for models hosted by Inference"
 readme = "README.md"
 authors = [{ name = "Nick Mystic" }]
 license = { text = "MIT" }
-classifiers = ["License :: OSI Approved :: MIT Software License"]
+classifiers = ["License :: OSI Approved :: MIT License"]
 dependencies = ["llm>=0.8", "httpx"]
 
 [project.urls]
