@@ -1,6 +1,6 @@
 # llm-inference
 
-[![PyPI](https://img.shields.io/pypi/v/llm-inference.svg)](https://pypi.org/project/llm-inference/)
+[![PyPI](https://img.shields.io/pypi/v/llm-inference-cloud.svg)](https://pypi.org/project/llm-inference-cloud/)
 [![Changelog](https://img.shields.io/github/v/release/ghostofpokemon/llm-inference?include_prereleases&label=changelog)](https://github.com/ghostofpokemon/llm-inference/releases)
 [![Tests](https://github.com/ghostofpokemon/llm-inference/workflows/Test/badge.svg)](https://github.com/ghostofpokemon/llm-inference/actions?query=workflow%3ATest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ghostofpokemon/llm-inference/blob/main/LICENSE)
@@ -13,12 +13,12 @@ First, [install the LLM command-line utility](https://llm.datasette.io/en/stable
 
 Now install this plugin in the same environment as LLM.
 ```bash
-llm install llm-inference
+llm install llm-inference-cloud
 ```
 
 ## Configuration
 
-You will need an API key from SambaNova. You can [obtain one here](https://inference.net/keys).
+You will need an API key from SambaNova. You can [obtain one here](https://dash.inference.net/dashboard/api-keys).
 
 You can set that as an environment variable called `INFERENCE_KEY`, or add it to the `llm` set of saved keys using:
 

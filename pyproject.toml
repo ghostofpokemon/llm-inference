@@ -1,5 +1,5 @@
 [project]
-name = "llm-inference"
+name = "llm-inference-cloud"
 version = "0.1"
 description = "LLM plugin for models hosted by Inference"
 readme = "README.md"
