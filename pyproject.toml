@@ -19,3 +19,7 @@ inference = "llm_inference"
 
 [project.optional-dependencies]
 test = ["pytest", "pytest-mock"]
+
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
